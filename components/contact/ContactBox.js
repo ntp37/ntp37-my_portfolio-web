@@ -5,7 +5,7 @@ import { PiDownloadSimpleBold } from "react-icons/pi";
 import { MdPhone, MdOutlineEmail } from "react-icons/md";
 
 export default function ContactBox() {
-  const resume_URL = "https://drive.google.com/file/d/1kg4eUIR7J9n9aZjaqWPpTxtdV4hENQ-T/view?usp=sharing";
+  const resume_URL = "https://drive.google.com/file/d/1xyQJTW6r40sQIyfW7aXDkiKapfUWSMFC/view?usp=sharing";
 //   const resume_URL = "https://drive.google.com/uc?export=download&id=1kg4eUIR7J9n9aZjaqWPpTxtdV4hENQ-T";
 
   return (
