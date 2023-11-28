@@ -5,8 +5,7 @@ import { PiDownloadSimpleBold } from "react-icons/pi";
 import { MdPhone, MdOutlineEmail } from "react-icons/md";
 
 export default function ContactBox() {
-  const resume_URL = "https://drive.google.com/file/d/1xyQJTW6r40sQIyfW7aXDkiKapfUWSMFC/view?usp=sharing";
-//   const resume_URL = "https://drive.google.com/uc?export=download&id=1kg4eUIR7J9n9aZjaqWPpTxtdV4hENQ-T";
+  const RESUME_URL = process.env.NEXT_PUBLIC_RESUME_URL
 
   return (
     <>
@@ -20,7 +19,7 @@ export default function ContactBox() {
                 number below.
               </p>
               <Link
-                href={resume_URL}
+                href={RESUME_URL}
                 target="_blank"
                 className="resume-btn-url self-center md:self-auto"
               >
@@ -45,11 +44,11 @@ export default function ContactBox() {
               <ul className="contact-list text-base sm:text-lg">
                 <li className="flex items-center gap-3">
                   <span><MdPhone /></span>
-                  <span>061-3524476</span>
+                  <span>{process.env.NEXT_PUBLIC_PHONE_NUM}</span>
                 </li>
                 <li className="flex items-center gap-3 my-3">
                   <span><MdOutlineEmail /></span>
-                  <span>nithipan.pro@gmail.com</span>
+                  <span>{process.env.NEXT_PUBLIC_EMAIL}</span>
                 </li>
               </ul>
             </div>

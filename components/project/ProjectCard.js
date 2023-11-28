@@ -16,26 +16,26 @@ const projectData = [
   {
     name: "N-Fabrion company website",
     image: projectImg_1,
-    liveLink: "https://nfabrion-company.onrender.com/",
-    repoLink: "https://github.com/ntp37/nfabrion-company-web",
+    liveLink: process.env.NEXT_PUBLIC_NFABRION_SITE,
+    repoLink: process.env.NEXT_PUBLIC_NFABRION_REPO,
   },
   {
     name: "Employee management",
     image: projectImg_2,
-    liveLink: "https://ntp37-crud-hr-management-react.vercel.app/",
-    repoLink: "https://github.com/ntp37/CRUD-HR_Management-React",
+    liveLink: process.env.NEXT_PUBLIC_EMPLOYEE_SITE,
+    repoLink: process.env.NEXT_PUBLIC_EMPLOYEE_REPO,
   },
   {
     name: "Countries in the World",
     image: projectImg_3,
-    liveLink: "https://ntp37-rest-countries-api-next-js.vercel.app/",
-    repoLink: "https://github.com/ntp37/REST-Countries-app-API-Next.js",
+    liveLink: process.env.NEXT_PUBLIC_COUNTRIES_SITE,
+    repoLink: process.env.NEXT_PUBLIC_COUNTRIES_REPO,
   },
   {
     name: "Task management (To-do List)",
     image: projectImg_4,
-    liveLink: "https://ntp37-todo-list-react.netlify.app/",
-    repoLink: "https://github.com/ntp37/TodoList-React_ntp37",
+    liveLink: process.env.NEXT_PUBLIC_TODOLIST_SITE,
+    repoLink: process.env.NEXT_PUBLIC_TODOLIST_REPO,
   },
 ];
 
